@@ -1,4 +1,5 @@
 rootProject.name = 'MultiplayerGame'
 include 'common'
 include 'jvm'
+include 'js'
 

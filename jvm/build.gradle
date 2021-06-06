@@ -36,8 +36,8 @@ jar {
 }
 
 task copyClient(type: Copy) {
-    //from project(':js').file('web')
-    //into file('out/web')
+    from project(':js').file('web')
+    into file('out/web')
 }
 
 jar.dependsOn(copyClient)
